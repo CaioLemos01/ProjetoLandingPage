@@ -19,3 +19,27 @@
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
+
+.material-symbols-outlined {
+    color: white;
+}
+
+#social-media {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    gap: 16px;
+}
+
+#social-media-width {
+    display: flex;
+    width: 140px;
+    gap: 16px;
+}
+
+.logo {
+    width: 100%;
+    aspect-ratio: 1;
+    object-fit: contain;
+    mix-blend-mode: color-burn;
+}
