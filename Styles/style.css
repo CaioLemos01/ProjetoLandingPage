@@ -5,10 +5,12 @@
 :root {
     --header-text: hsl(0, 0%, 58%);
     --header-text-hover: hsl(0, 0%, 100%);
+    --btn-text: hsl(0, 0%, 100%);
     --header-background: hsl(217, 28%, 15%);
     --main-background-color: hsl(218, 28%, 13%);
     --call-to-action-start-gradient: hsl(176, 68%, 64%);
     --call-to-action-finish-gradient: hsl(198, 60%, 50%);
+    --call-to-action-active: hsl(198, 68%, 50%);
     --testimonials-background: hsl(219, 30%, 18%);
     --footer-background: hsl(216, 53%, 9%);
 }
@@ -18,6 +20,57 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    background-color: var(--header-background);
+}
+
+#nav-bar {
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo {
+    width: 30%;
+}
+
+#nav-list {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    gap: 14px;
+}
+
+.header-image {
+    width: 100vw;
+}
+
+main {
+    background-color: var(--main-background-color);
+}
+
+.call-to-action-button {
+    width: 60%;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    padding: 10px;
+    border-radius: 50px;
+    border: none;
+    background-image: linear-gradient(to right, var(--call-to-action-start-gradient), var(--call-to-action-finish-gradient));
+    color: var(--btn-text);
+}
+
+.call-to-action-button:active {
+    background-image: linear-gradient(to right, var(--call-to-action-active));
+}
+
+#stay-productive-image {
+    width: 100vw;
+}
+
+footer {
+    background-color: var(--footer-background);
 }
 
 .material-symbols-outlined {
@@ -38,8 +91,13 @@
 }
 
 .logo {
+    color: white;
     width: 100%;
     aspect-ratio: 1;
     object-fit: contain;
     mix-blend-mode: color-burn;
+}
+
+.logo:active {
+    fill: aqua;
 }
