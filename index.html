@@ -18,58 +18,60 @@
         <nav id="nav-bar">
             <img id="logo" src="Images/logo.svg" alt="Logotipo">
             <ul id="nav-list">
-                <a href="#features"><li>Features</li></a>
-                <a href="#team"><li>Team</li></a>
-                <a href="#early-access"><li>Sign In</li></a>
+                <a class="nav-bar-list-item" href="#features"><li>Features</li></a>
+                <a class="nav-bar-list-item" href="#team"><li>Team</li></a>
+                <a class="nav-bar-list-item" href="#early-access"><li>Sign In</li></a>
             </ul>
         </nav>
-        <img class="header-image" src="Images/illustration-intro.png" alt="Colaboradores">
-        <img class="header-image" src="Images/bg-curvy-mobile.svg" alt="Background curvy image">
+        <div id="images">
+            <img id="illustrator-image" class="header-image" src="Images/illustration-intro.png" alt="Colaboradores">
+            <img id="curvy-image" class="header-image" src="Images/bg-curvy-mobile.svg" alt="Background curvy image">
+            <section id="introduction">
+                <div id="header-1">
+                    <h1>All your files in one secure location, accessible anywhere.</h1>
+                    <p>Fylo stores all your most important files in one secure location. Access them wherever you need, share and collaborate with friends, family, and co-workers.</p>
+                    <a href="#early-access"><button class="call-to-action-button">Get Started</button></a>
+                </div>
+            </section>
+        </div>
     </header>
     <main>
-        <section id="introdution">
-            <div id="header-1">
-                <h1>All your files in one secure location, accessible anywhere.</h1>
-                <p>Fylo stores all your most important files in one secure location. Access them wherever you need, share and collaborate with friends, family, and co-workers.</p>
-                <button class="call-to-action-button"><a href="#early-access">Get Started</a></button>
-            </div>
-        </section>
         <section id="features">
-            <div class="first-div-features">
-                <img src="Images/icon-access-anywhere.svg" alt="Access anywhere">
-                <h2>Access your files, anywhere</h2>
-                <p>The ability to use a smartphone, tablet, or computer to access your account means your files follow you everywhere.</p>
+            <div id="first-div-features" class="div-features">
+                <img class="features-images" src="Images/icon-access-anywhere.svg" alt="Access anywhere">
+                <h2 class="features-h2">Access your files, anywhere</h2>
+                <p class="features-p">The ability to use a smartphone, tablet, or computer to access your account means your files follow you everywhere.</p>
             </div>
-            <div class="second-div-features">
-                <img src="Images/icon-security.svg" alt="Security">
-                <h2>Security you can trust</h2>
-                <p>Two-factor authentication and user-controlled encryption are just a couple of the security features we allow to help secure your files.</p>
+            <div id="second-div-features" class="div-features">
+                <img class="features-images" src="Images/icon-security.svg" alt="Security">
+                <h2 class="features-h2">Security you can trust</h2>
+                <p class="features-p">Two-factor authentication and user-controlled encryption are just a couple of the security features we allow to help secure your files.</p>
             </div>
-            <div class="third-div-features">
-                <img src="Images/icon-collaboration.svg" alt="Real-time collaboration">
-                <h2>Real-time collaboration</h2>
-                <p>Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required.</p>
+            <div id="third-div-features" class="div-features">
+                <img class="features-images" src="Images/icon-collaboration.svg" alt="Real-time collaboration">
+                <h2 class="features-h2">Real-time collaboration</h2>
+                <p class="features-p">Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required.</p>
             </div>
-            <div class="fourth-div-features">
-                <img src="Images/icon-any-file.svg" alt="Store anywhere">
-                <h2>Store any type of file</h2>
-                <p>Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all file types to be securely stored and shared.</p>
+            <div id="fourth-div-features" class="div-features">
+                <img class="features-images" src="Images/icon-any-file.svg" alt="Store anywhere">
+                <h2 class="features-h2">Store any type of file</h2>
+                <p class="features-p">Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all file types to be securely stored and shared.</p>
             </div>
         </section>
         <section id="stay-productive">
             <img id="stay-productive-image" src="Images/illustration-stay-productive.png" alt="Stay productive">
-            <h2>Stay productive, wherever you are</h2>
-            <p>Never let location be an issue when accessing your files. Fylo has you covered for all of your file storage needs.</p>
-            <p>Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required.</p>
-            <a href="#early-access">See how Fylo works<img src="Images/icon-arrow.svg"></a>
+            <h2 id="stay-productive-h2">Stay productive, wherever you are</h2>
+            <p id="stay-productive-p1" class="stay-productive-p">Never let location be an issue when accessing your files. Fylo has you covered for all of your file storage needs.</p>
+            <p id="stay-productive-p2" class="stay-productive-p">Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required.</p>
+            <div id="stay-productive-div"><a id="stay-productive-a" href="#early-access">See how Fylo works <img src="Images/icon-arrow.svg"></a></div>
         </section>
         <section id="team">
-            <img src="Images/bg-quotes.png" alt="Decoration quotes">
+            <img id="img-quotes" src="Images/bg-quotes.png" alt="Decoration quotes">
             <div class="team-profiles">
                 <p>Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
                 <div class="profile">
                     <img src="Images/profile-1.jpg" alt="Profile picture">
-                    <div>
+                    <div class="identity">
                         <h3>Satish Patel</h3>
                         <h4>Founder & CEO, Huddle</h4>
                     </div>
@@ -79,7 +81,7 @@
                 <p>Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
                 <div class="profile">
                     <img src="Images/profile-2.jpg" alt="Profile picture">
-                    <div>
+                    <div class="identity">
                         <h3>Bruce McKenzie</h3>
                         <h4>Founder & CEO, Huddle</h4>
                     </div>
@@ -89,7 +91,7 @@
                 <p>Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
                 <div class="profile">
                     <img src="Images/profile-3.jpg" alt="Profile picture">
-                    <div>
+                    <div class="identity">
                         <h3>Iva Boyd</h3>
                         <h4>Founder & CEO, Huddle</h4>
                     </div>
