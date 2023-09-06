@@ -14,6 +14,8 @@
     --call-to-action-active: hsl(198, 98%, 39%);
     --testimonials-background: hsl(219, 30%, 18%);
     --footer-background: hsl(216, 53%, 9%);
+    --email-successful: hsl(135, 100%, 40%);
+    --email-not-successful: hsl(0, 100%, 43%);
     --primary-font: 'Open Sans', sans-serif;
     --secondary-font: 'Raleway', sans-serif;
 }
@@ -291,6 +293,26 @@ main {
     padding-bottom: 26px;
     margin-bottom: 60px;
     padding-top: 16px;
+}
+
+#success {
+    display: none;
+    width: 78%;
+    margin: auto;
+    text-align: left;
+    padding-bottom: 10px;
+    color: var(--email-successful);
+    font-size: 14px;
+}
+
+#error {
+    display: none;
+    width: 78%;
+    margin: auto;
+    text-align: left;
+    padding-bottom: 10px;
+    color: var(--email-not-successful);
+    font-size: 14px;
 }
 
 #iemail {
