@@ -211,7 +211,7 @@ main {
 }
 
 #team {
-    width: 90vw;
+    width: 80vw;
     margin: auto;
 }
 
@@ -224,6 +224,7 @@ main {
     background-color: var(--testimonials-background);
     margin-bottom: 10%;
     padding: 26px;
+    border-radius: 4px;
 }
 
 .team-profiles p {
@@ -258,8 +259,99 @@ main {
     font-weight: 300;
 }
 
+.early-access {
+    background-color: var(--testimonials-background);
+    text-align: center;
+    width: 90vw;
+    margin: auto;
+}
+
+#early-access-1 {
+    border-radius: 6px 6px 0 0;
+}
+
+#early-access-1 h2 {
+    color: var(--color-text-title);
+    font-size: 16px;
+    padding-top: 26px;
+    margin-top: 60px;
+}
+
+#early-access-1 p {
+    color: var(--color-text);
+    font-size: 14px;
+    padding-bottom: 16px;
+    width: 80%;
+    margin: auto;
+    padding-top: 10px;
+}
+
+#early-access-2 {
+    border-radius: 0 0 6px 6px;
+    padding-bottom: 26px;
+    margin-bottom: 60px;
+    padding-top: 16px;
+}
+
+#iemail {
+    padding: 20px;
+    margin-bottom: 18px;
+    width: 80%;
+    font-size: 12px;
+    font-weight: 300;
+    font-family: 'Raleway', sans-serif;
+    padding: 10px;
+    border-radius: 50px;
+    border: none;
+}
+
+#early-access-btn {
+    width: 80%;
+}
+
 footer {
     background-color: var(--footer-background);
+}
+
+#footer-width {
+    width: 80%;
+    margin: auto;
+}
+
+#footer-1 {
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.contact {
+    display: flex;
+    gap: 10px;
+    padding-bottom: 10px;
+    color: var(--color-text);
+}
+
+#footer-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-bottom: 40px;
+}
+
+.footer-a a {
+    text-decoration: none;
+    color: var(--color-text);
+    font-weight: 400;
+}
+
+.footer-a a:active {
+    color: var(--btn-text);
+}
+
+#footer-3 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-bottom: 40px;
 }
 
 .material-symbols-outlined {
